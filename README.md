@@ -23,4 +23,4 @@ This project is a simple yet interactive quiz application built using **HTML**, 
 ## 🚀 How to Run the Project  
 1. 📂 Clone the repository:  
    ```bash  
-   git clone (https://github.com/abderrahmane-laourf/quiz-game.git) 
+   git clone https://github.com/abderrahmane-laourf/quiz-game.git
