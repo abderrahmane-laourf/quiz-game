@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Maps&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Maps&family=Timmana&family=Tiny5&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans Arabic", serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #1c343f, #0d1333, #491313);
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
+  animation: gradientAnimation 100s ease infinite;
+
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#menu {
+  width: 30%;
+  background-color: antiquewhite;
+  margin: 10% auto;
+  height: 370px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.btn_language button {
+
+  margin: 5px 5px;
+  padding: 5px;
+  width: 170px;
+  outline: none;
+}
+
+
+
+.btn_language button,
+#btn_numero button {
+  background-color: #ffffff;
+  border: 1px solid #066669;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn_language button:hover,
+#btn_numero button:hover {
+  background-color: #066669;
+}
+
+/* Use a class to represent the "active" or "focused" state */
+.btn_language button.active,
+#btn_numero button.active {
+  background-color: #066669;
+  outline: none;
+  text-align: center;
+}
+
+.btn_language,
+#btn_numero {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#btn_numero button {
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#start {
+  background: linear-gradient(to right, #066669, #000000);
+  background-size: 200%;
+  background-position: left;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 50%;
+  margin: 0px auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-position 0.7s ease-in-out;
+  /* Animation fluide */
+}
+
+#start:hover {
+  background-position: right;
+  /* Déplace le dégradé vers la droite */
+}
+
+.quiz-start-button {
+  width: 30%;
+  margin: 22% 35%;
+  height: 50px;
+  text-align: center;
+  border-radius: 15px;
+  transition: all 1s ease;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+.quiz-start-button:hover {
+  scale: 1.1;
+  background: linear-gradient(to right, #88ff00, #000000);
+  background-position: right;
+}
+
+#quiz-container {
+  width: 30%;
+  background-color: antiquewhite;
+  margin: 10% auto;
+  height: 387px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  padding: 11px;
+  position: relative;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 2px solid #066669;
+}
+
+
+h4.question-text {
+  color: #2c3e50;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 7px 0 10px 0;
+  text-align: center;
+}
+
+
+.answer-options {
+  list-style: none;
+  padding: 2px;
+}
+
+.answer-option {
+  border: none;
+  font-weight: 800;
+  font-size: 16px;
+  color: #000000;
+  padding: 7px 15px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2980b9;
+}
+
+.answer-option:hover {
+  background-color: #066669;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.answer-option.correct {
+  background-color: #2ecc71;
+}
+
+.answer-option.incorrect {
+  background-color: #e74c3c;
+}
+
+#true_symbole i,
+#false_symbole i {
+  font-size: 18px;
+}
+
+.answer-option:active {
+  transform: scale(0.95);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  align-items: center;
+}
+
+#next {
+  background: linear-gradient(to right, #066669, #000000);
+  background-size: 200%;
+  background-position: left;
+  color: white;
+  padding: 3px;
+  font-size: 16px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-position 0.7s ease-in-out;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px
+}
+
+.icon-timer {
+  color: #000000;
+  background-color: #2980b9;
+  width: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 3px 2px 3px rgba(179, 0, 0, 0.904);
+}
+
+#conteur {
+  font-size: 19px;
+  font-family: "IBM Plex Sans Arabic", serif;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+}
+
+.icon-timer>p {
+  font-size: 17px;
+  font-family: "IBM Plex Sans Arabic", serif;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.icon-timer>i {
+  color: #000000;
+  font-size: 17px;
+}
+
+#result img {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+#result {
+  width: 30%;
+  background-color: antiquewhite;
+  margin: 10% auto;
+  height: 370px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  padding: 11px;
+  text-align: center;
+}
+
+.try_again {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#try {
+  font-weight: 600;
+  color: #066669;
+}
+
+.try_again i {
+  font-size: 25px;
+  color: #066669;
+}
+
+#abde {
+  position: relative;
+  top: 30px;
+  font-size: 17px;
+  font-weight: 600;
+}

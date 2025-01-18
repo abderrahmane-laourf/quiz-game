@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- page1 -->
+    <div class="page1">
+        <button id="p1" class="quiz-start-button">Start Quiz</button>
+    </div>
+    <!-- page2 -->
+    <div id="menu" class="hidden">
+        <h1>QUIZ</h1>
+        <div class="container">
+            <div class="btn_language">
+                <button id="python" class="question-option active">python</button>
+                <button id="javascript" class="question-option">javascript</button>
+                <button id="css" class="question-option">CSS</button>
+                <button id="html" class="question-option">HTML</button>
+            </div>
+            <div id="btn_numero">
+                <P>Number.of Questions</P>
+                <button class="num">5</button>
+                <button class="num">10</button>
+                <button class="num">15</button>
+                <button class="num">20</button>
+                <button class="num">25</button>
+            </div>
+            <button id="start"> START THE QUIZ !!</button>
+        </div>
+    </div>
+    <!-- page3  for header quiz-->
+    <div id="quiz-container" class="hidden">
+        <div class="quiz-header">
+            <div class="header">
+                <h1>Question quiz </h1>
+            </div>
+            <div class="icon-timer">
+                <i class="fa-solid fa-clock"></i>
+                <p id="timer-duration"></p>
+            </div>
+        </div>
+        <div id="quiz-answer">
+            <h4 class="question-text"></h4>
+            <ul class="answer-options">
+            </ul>
+        </div>
+        <div class="quiz-footer">
+            <div id="conteur">
+                <p class="conteur"><b id="n-actuel">1 </b> of <b id="n-questions"> 15</b></p>
+            </div>
+            <div id="next">
+                <p class="next">next <span><i class="fa-solid fa-arrow-right"></i></span></p>
+            </div>
+        </div>
+    </div>
+    <!-- result quiz  -->
+    <div id="result" class="hidden">
+        <img src="/images/pngtree-congratulations-header-vector-with-red-banner-circus-theme-design-art-ribbon-png-image_10259763.png"
+            alt="congration">
+        <h1>QUIZ COMPLETED</h1>
+        <p id="result-commant"></p>
+        <div class="try_again">
+            <p id="try">try again</p>
+            <span><i class="fa-solid fa-rotate-right"></i></span>
+        </div>
+        <small id="abde">@by abderrahmane laourf</small>
+    </div>
+    <audio id="incorrect-sound" src="/sound/Among us sound effect.mp3"></audio>
+    <audio id="correct-sound" src="/sound/valorant kill sound effect.mp3"></audio>
+    <audio id="win" src="/sound/Success, win sound effect.mp3"></audio>
+    <audio id="ah" src="/sound/Ah S__t Here We Go Again - Sound Effect.mp3"></audio>
+    <script type="module" src="javascript/javascript.js"></script>
+    <script type="module" src="/javascript/question.js"></script>
+    </div>
+</body>
+
+</html>
