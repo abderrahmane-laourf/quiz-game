@@ -12,6 +12,8 @@ This project is a simple yet interactive quiz application built using **HTML**, 
 - 🌐 **Multi-Platform Support**: Works on desktops, tablets, and smartphones.  
 
 ---
+## VIDEO
+--   
 
 ## 🛠️ Technologies Used  
 - **HTML** 🏗️: Structure of the app.  
