@@ -12,7 +12,7 @@ const questionPage = document.getElementById('quiz-container');
 const resultPage = document.getElementById('result');
 const try_again = document.querySelector('.try-again');
 const win = document.querySelector('#win');
-const ah = document.querySelector('#ah');
+// const ah = document.querySelector('#ah');
 
 const QUIZ_TIME_LIMIT = 15;
 let currenttime = QUIZ_TIME_LIMIT;
