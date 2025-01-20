@@ -44,8 +44,6 @@ const startTimer = () => {
         if (currenttime <= 0) {
             clearInterval(timeinterval);
             console.log("Time's up!");
-            // Handle time's up, e.g., move to the next question or show results
-            //For simplicity, let's just move to the next question
             renderquestion();
         }
     }, 1000);
