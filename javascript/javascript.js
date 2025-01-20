@@ -185,10 +185,10 @@ document.addEventListener('DOMContentLoaded', () => {
             button.classList.add('active');
 
             if (parentContainer.classList.contains('btn_language')) {
-                // Do something specific for language buttons
-                quizcategory = button.id; // Assuming your language buttons have IDs
+                
+                quizcategory = button.id; 
             } else {
-                // Do something specific for number buttons
+                
                 numberofquestion = parseInt(button.textContent, 10);
             }
         }
