@@ -209,7 +209,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add an event listener to the button that triggers a page refresh
     tryAgainButton.addEventListener("click", () => {
-        ah.play();
         location.reload(); // This reloads the entire page
     });
 }, false);
