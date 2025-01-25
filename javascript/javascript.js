@@ -1,4 +1,4 @@
-import { questions } from './question.js'; // Make sure the path is correct
+import { questions } from './question.js'; // Make sure the path is correc
 
 const answerOptions = document.querySelector(".answer-options");
 const nextButton = document.querySelector(".next");
