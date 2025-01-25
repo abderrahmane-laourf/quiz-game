@@ -1,4 +1,4 @@
-import { questions } from './question.js'; // 
+import { questions } from './question.js'; 
 
 const answerOptions = document.querySelector(".answer-options");
 const nextButton = document.querySelector(".next");
