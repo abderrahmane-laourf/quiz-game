@@ -3,7 +3,6 @@
 Welcome to the **Quiz App**! 🎉  
 This project is a simple yet interactive quiz application built using **HTML**, **CSS**, and **JavaScript**. 🚀  
 
-
 ---
 
 
