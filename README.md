@@ -4,7 +4,6 @@ Welcome to the **Quiz App**! 🎉
 This project is a simple yet interactive quiz application built using **HTML**, **CSS**, and **JavaScript**. 🚀  
 
 ---
-
 ## 📖 Features  
 - 🖼️ **Beautiful Interface**: User-friendly and responsive design.  
 - 🕹️ **Interactive Quizzes**: Test your knowledge with dynamic questions.  
