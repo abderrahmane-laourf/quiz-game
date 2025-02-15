@@ -17,7 +17,6 @@ This project is a simple yet interactive quiz application built using **HTML**, 
 - **JavaScript** ⚙️: Logic and interactivity. 
 
 ---
-
 ## 🚀 How to Run the Project 
 1. 📂 Clone the repository:  
    ```bash  
