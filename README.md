@@ -15,7 +15,6 @@ This project is a simple yet interactive quiz application built using **HTML**, 
 - **HTML** 🏗️: Structure of the app. 
 - **CSS** 🎨: Styling and layout. 
 - **JavaScript** ⚙️: Logic and interactivity. 
-
 ---
 ## 🚀 How to Run the Project 
 1. 📂 Clone the repository:  
