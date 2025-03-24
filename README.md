@@ -9,6 +9,7 @@ This project is a simple yet interactive quiz application built using **HTML**, 
 - 📊 **Score Tracking**: See how well you performed.  
 ---
 
+
 ## VIDEO
 
 --   https://github.com/user-attachments/assets/f18810cc-15ab-4734-95cc-81a028f2e8d3
