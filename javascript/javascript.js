@@ -14,6 +14,7 @@ const try_again = document.querySelector('.try-again');
 const win = document.querySelector('#win');
 // const ah = document.querySelector('#ah');
 
+
 const QUIZ_TIME_LIMIT = 15;
 let currenttime = QUIZ_TIME_LIMIT;
 let timeinterval = null;
