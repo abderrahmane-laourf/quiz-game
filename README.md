@@ -9,7 +9,6 @@ This project is a simple yet interactive quiz application built using **HTML**, 
 - 🕹️ **Interactive Quizzes**: Test your knowledge with dynamic questions.  
 - 📊 **Score Tracking**: See how well you performed.  
 ---
-
 ## VIDEO
 
 
