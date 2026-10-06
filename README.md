@@ -4,6 +4,7 @@ This project is a simple yet interactive quiz application built using **HTML**, 
 ---
 
 
+
 ## 📖 Features  
 - 🖼️ **Beautiful Interface**: User-friendly and responsive design.  
 - 🕹️ **Interactive Quizzes**: Test your knowledge with dynamic questions.  
